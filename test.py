@@ -39,7 +39,7 @@ def teste_peek():
     pilha.enqueue("b")
     assert pilha.peek() == "a"
     assert pilha.size() == 2
-    print("Teste 3 ok / peek (nao remove)")
+    print("Teste 3 ok / peek")
 
 
 # Teste 4 - pilha cheia deve dar erro no enqueue
@@ -63,7 +63,7 @@ def teste_clear():
     pilha.clear()
     assert pilha.is_empty() == True
     assert pilha.size() == 0
-    print("Teste 5 ok / clear (limpa)")
+    print("Teste 5 ok / clear")
 
 
 if __name__ == "__main__":
